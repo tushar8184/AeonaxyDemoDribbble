@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aeonaxy Dribbble</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Borel&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="main-section">
+      <!-- + Sign-Up & Banner Section -->
+      <section class="entry-section">
+        <div class="entry-section__banner">
+          <h1>dribbble</h1>
+          <h2>
+            Discover the world's top <br />
+            Designers & Creatives
+          </h2>
+          <img src="./images/bannerpage.png" alt="" />
+          <h3>
+            Art by <span><a href="#">Peter Tarka</a></span>
+          </h3>
+        </div>
+        <div class="entry-section__signUp">
+          <div class="entry-section__member">
+            <small>
+              Already a member? <span><a href="#">Sign In</a></span>
+            </small>
+
+            <div class="entry-section__form">
+              <h2>Sign up to Dribbble</h2>
+              <ul>
+                <li>
+                  <small>Username has already been taken</small>
+                </li>
+              </ul>
+              <div class="entry-section__form-name-username form">
+                <div class="entry-section__form-name">
+                  <div class="label-name label">
+                    <label for="name">Name</label>
+                  </div>
+                  <div class="input-name input">
+                    <input
+                      type="text"
+                      name="name"
+                      id="name"
+                      placeholder="name"
+                    />
+                  </div>
+                </div>
+                <div class="entry-section__form-username">
+                  <div class="label-username label">
+                    <label for="username">Username</label>
+                  </div>
+                  <div class="input-username input">
+                    <input
+                      type="text"
+                      name="username"
+                      id="username"
+                      placeholder="username"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="entry-section__form-email form">
+                <div class="label-email label">
+                  <label for="email">Email</label>
+                </div>
+                <div class="input-email input">
+                  <input
+                    type="text"
+                    name="email"
+                    id="email"
+                    placeholder="email"
+                  />
+                </div>
+              </div>
+              <div class="entry-section__form-password form">
+                <div class="label-password label">
+                  <label for="password">Password</label>
+                </div>
+                <div class="input-password input">
+                  <input
+                    type="text"
+                    name="password"
+                    id="password"
+                    placeholder="6+ characters"
+                  />
+                </div>
+              </div>
+              <div class="entry-section__form-checkbox">
+                <div>
+                  <input type="checkbox" name="checkbox" id="checkbox" />
+                </div>
+                <div>
+                  <small>
+                    Creating an account means you're okay with our
+                    <span>
+                      <a href="#">Terms of Service, Privacy Policy,</a>
+                    </span>
+                    and our default
+                    <span><a href="#">Notification Settings.</a></span>
+                  </small>
+                </div>
+              </div>
+              <div class="entry-section__form-button">
+                <a href="#">Create Account</a>
+              </div>
+              <div class="entry-section__form-terms-condition">
+                <small
+                  >This site is protected by reCAPTCHA and the Google <br />
+                  <a href="#">Privacy Policy </a>and
+                  <a href="#">Terms of Service </a>apply.</small
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- + Profile Section -->
+      <section class="profile-section">
+        <div class="profile-section__logo">
+          <h1>dribbble</h1>
+        </div>
+        <div class="profile-section__text-avatar-body">
+          <div class="profile-section__heading-text">
+            <h1>Welcome! Let's create your profile</h1>
+            <small
+              >Let others get to know you better! You can do these later</small
+            ><br />
+            <strong>Add an avatar</strong>
+          </div>
+
+          <div class="profile-section__avatar">
+            <div class="img">
+              <img src="./images/cat.jpg" alt="" />
+            </div>
+            <div class="select-img">
+              <a href="#">Choose image</a> <br />
+              <a href="#">
+                <span> &#10095; </span> Or choose one of our defaults</a
+              >
+            </div>
+          </div>
+
+          <div class="profile-section__location">
+            <label for="search">Add your location</label>
+            <input type="search" name="search" id="search" />
+          </div>
+
+          <div class="profile-section__button">
+            <a class="next" href="#">Next</a> <br />
+            <a class="return" href="#">or Press RETURN</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- + selection -->
+      <section class="selection">
+        <div class="selection__logo">
+          <h1>dribbble</h1>
+          <button><a href="#">&#10094;</a></button>
+        </div>
+
+        <div class="selection__heading-subheading">
+          <h1>What brings you to Dribbble?</h1>
+          <small
+            >Select the options that best describe you. Don't worry, you can
+            explore other options later.</small
+          >
+        </div>
+        <div class="selection__cards">
+          <div class="img-text-card">
+            <img src="./images/card_img.jpg" alt="" />
+            <strong>I'm a designer looking to share my work</strong>
+
+            <input
+              type="checkbox"
+              name="checkbox"
+              id="card-one"
+              class="cards"
+            />
+
+            <label for="card-one"></label>
+          </div>
+
+          <div class="img-text-card">
+            <img src="./images/card_img.jpg" alt="" />
+            <strong> I'm looking to hire a designer </strong>
+
+            <input
+              type="checkbox"
+              name="checkbox"
+              id="card-two"
+              class="cards"
+            />
+            <label for="card-two"></label>
+          </div>
+
+          <div class="img-text-card">
+            <img src="./images/card_img.jpg" alt="" />
+            <strong>I'm looking for design inspiration</strong>
+            <input
+              type="checkbox"
+              name="checkbox"
+              id="card-three"
+              class="cards"
+            />
+            <label for="card-three"></label>
+          </div>
+        </div>
+
+        <div class="selection__button">
+          <a href="#">Finish</a>
+        </div>
+      </section>
+
+      <!-- + Verify Section -->
+      <section class="verify">
+        <nav class="verify__navbar">
+          <div class="logo">
+            <h1>dribbble</h1>
+          </div>
+          <div class="tags">
+            <ul>
+              <li><a href="#">Inspiration</a></li>
+              <li><a href="#">Find Work</a></li>
+              <li><a href="#">Learn Design</a></li>
+              <li><a href="#">Go Pro</a></li>
+              <li><a href="#">Hire Designers</a></li>
+            </ul>
+          </div>
+          <div class="input-avatar">
+            <div class="search">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input
+                type="search"
+                name="search"
+                id="search"
+                placeholder="Search"
+              />
+            </div>
+            <div class="upload">
+              <i class="fa-solid fa-briefcase"></i>
+              <img src="./images/" alt="" srcset="" />
+              <a href="#Upload">Upload</a>
+            </div>
+          </div>
+        </nav>
+        <div class="text">
+          <h1>Please verify your email...</h1>
+          <i class="fa-solid fa-envelope-circle-check"></i>
+          <h2>
+            Please verify your email address. We've sent a confirmation email
+            to:
+          </h2>
+          <main><a class="account" href="#">account@refero.design</a></main>
+          <h2 class="click">
+            Click the confirmation link in that email to begin using Dribbble
+          </h2>
+          <h2>
+            Didn't receive the email? Check your Spam folder, it may have been
+            caught by a filter. if you still don't see it, you can
+            <span><a href="#">resend the confirmation email</a></span>
+          </h2>
+          <h2>Wrong email address? <a href="#">Change it.</a></h2>
+        </div>
+      </section>
+
+      <!-- + Footer -->
+      <section class="footer-section">
+        <div class="footer">
+          <div class="logo-reach">
+            <h1>dribbble</h1>
+            <h2>
+              Dribbble is the world's leading community for creatives to share,
+              grow, and get hired.
+            </h2>
+            <div class="brand-icon">
+              <a href=""><i class="fa-brands fa-dribbble"></i></a>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-pinterest"></i></a>
+            </div>
+          </div>
+          <div class="designers list">
+            <ul>
+              <li><a class="heading" href="#">For designers</a></li>
+              <li><a class="sub-heading" href="#">Go Pro!</a></li>
+              <li><a class="sub-heading" href="#">Expolre design work</a></li>
+              <li><a class="sub-heading" href="#">Design blog</a></li>
+              <li><a class="sub-heading" href="#">Overtime podcast</a></li>
+              <li><a class="sub-heading" href="#">Playoffs</a></li>
+              <li><a class="sub-heading" href="#">Weekly Warm-Up</a></li>
+              <li><a class="sub-heading" href="#">Refer a Friend</a></li>
+              <li><a class="sub-heading" href="#">Code of conduct</a></li>
+            </ul>
+          </div>
+          <div class="hire-designers list">
+            <ul>
+              <li><a class="heading" href="#">Hire designers</a></li>
+              <li><a class="sub-heading" href="#">Post a job opening</a></li>
+              <li>
+                <a class="sub-heading" href="#">Post a freelance project</a>
+              </li>
+              <li>
+                <a class="sub-heading" href="#">Search for designers</a>
+              </li>
+              <li><a class="sub-heading" href="#">Brands</a></li>
+              <li><a class="sub-heading" href="#">Advertise with us</a></li>
+            </ul>
+          </div>
+          <div class="company list">
+            <ul>
+              <li><a class="heading" href="#">Company</a></li>
+              <li><a class="sub-heading" href="#">About</a></li>
+              <li><a class="sub-heading" href="#">Careers</a></li>
+              <li><a class="sub-heading" href="#">Support</a></li>
+              <li><a class="sub-heading" href="#">Media Kit</a></li>
+              <li><a class="sub-heading" href="#">Testimonials</a></li>
+              <li><a class="sub-heading" href="#">API</a></li>
+              <li><a class="sub-heading" href="#">Terms of service</a></li>
+              <li><a class="sub-heading" href="#">Privacy Policy</a></li>
+              <li><a class="sub-heading" href="#">Cookie Policy</a></li>
+            </ul>
+          </div>
+          <div class="derictories list">
+            <ul>
+              <li><a class="heading" href="#">Directories</a></li>
+              <li><a class="sub-heading" href="#">Design jobs</a></li>
+              <li><a class="sub-heading" href="#">Designer for hire</a></li>
+              <li>
+                <a class="sub-heading" href="#"
+                  >Freelance designers for hire
+                </a>
+              </li>
+              <li><a class="sub-heading" href="#">Tags</a></li>
+              <li><a class="sub-heading" href="#">Places</a></li>
+              <li><a class="sub-heading" href="#">Design assets</a></li>
+              <li>
+                <a class="sub-heading" href="#">Dribbble Marketplace </a>
+              </li>
+              <li><a class="sub-heading" href="#">Creative Market</a></li>
+              <li><a class="sub-heading" href="#">Fontspring</a></li>
+              <li><a class="sub-heading" href="#">Font Squirrel</a></li>
+            </ul>
+          </div>
+          <div class="design-resources list">
+            <ul>
+              <li><a class="heading" href="#">Design Resources</a></li>
+              <li><a class="sub-heading" href="#">Freelancing</a></li>
+              <li><a class="sub-heading" href="#">Design Hiring</a></li>
+              <li><a class="sub-heading" href="#">Design Portfolio</a></li>
+              <li><a class="sub-heading" href="#">Design Education</a></li>
+              <li><a class="sub-heading" href="#">Creative Process</a></li>
+              <li>
+                <a class="sub-heading" href="#">Design Industry Trends</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- + Secondary Footer -->
+        <div class="secondary-footer">
+          <div class="copyright">
+            <i class="fa-regular fa-copyright"></i>
+            <small>2023 Dribbble. All rights reserved.</small>
+          </div>
+          <div class="shots">
+            <small> <span>20501853</span> shots dribbbled</small>
+            <i class="fa-brands fa-dribbble"></i>
+          </div>
+        </div>
+      </section>
+    </section>
+  </body>
+</html>
